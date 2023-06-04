@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
     <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
     <!-- Blocks -->
+    <link rel="stylesheet" href="./css/blocks/btn.css" />
     <link rel="stylesheet" href="./css/blocks/header.css" />
+    <link rel="stylesheet" href="./css/blocks/home.css" />
   </head>
   <body>
     <header class="header">
-      <div class="contaniner">
+      <div class="container">
         <div class="header-row">
           <div class="header-logo"><img src="./img/logo.svg" alt="Logo" /></div>
           <nav class="header-nav">
@@ -28,11 +30,35 @@
             </ul>
           </nav>
           <div class="header-login">
-            <a href="#">Sign in</a>
+            <a class="header-login-link" href="#">Sign in</a>
             <a href="#" class="btn">Start Trial</a>
           </div>
         </div>
       </div>
     </header>
+
+    <main>
+      <section class="home">
+        <div class="container">
+          <div class="home-content">
+            <h1 class="home-heading">Be aware, Manage well.</h1>
+            <div class="home-text">
+              <p>
+                Everyone experiences stress in different ways. Let Alivio guide you, in a
+                personalized journal experience, to overcome your stress.
+              </p>
+            </div>
+            <div class="home-btn">
+              <a href="#" class="btn btn-big">Find Your Way</a>
+            </div>
+          </div>
+          <div class="home-bg-img">
+            <img src="./img/home/bg.jpg" alt="Background cover">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>

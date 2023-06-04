@@ -10,7 +10,6 @@
   /* justify-content: flex-start; */
 }
 
-
 .header-nav {
   font-weight: 500;
   color: #292929;
@@ -49,32 +48,11 @@
   margin-left: 35px;
 }
 
-.header-login a {
+.header-login-link {
   color: #000;
   transition: color 0.2s ease;
 }
 
-.header-login a:hover {
+.header-login-link:hover {
   color: #01996d;
-}
-
-.btn,
-a.btn {
-  display: inline-block;
-  height: 51px;
-  line-height: 51px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: #01996d;
-  color: #fff;
-  font-size: 20px;
-  border-radius: 4px;
-  font-weight: 400;
-  transition: opacity 0.2s ease;
-}
-
-.btn:hover,
-a.btn:hover {
-  opacity: 0.8;
-  color: #fff;
 }
